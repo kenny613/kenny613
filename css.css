@@ -1,0 +1,217 @@
+
+
+html{
+	
+  font-family:  'Noto Serif TC', serif !important;
+}
+
+body {
+ background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+
+.toppest{
+  text-align: center;
+  height:200px; 
+  border-color:#00FFFF;
+  border: 15px solid #CD0000;
+  border-bottom: 5px solid yellow;
+  background: #CD0000;
+  top: 0;
+  position: sticky;
+
+
+}
+
+
+
+#lefthammer{
+	float: left;}
+	
+#righthammer{
+	float:right;}
+
+
+
+
+
+.containers{
+	border: 10px solid red;
+	margin: 2em;
+	height: 50%;
+	padding: 1em;
+	border-radius: 10px;
+	border-color::#00FFFF;
+	border: 5px solid red;
+	background: #CD0000;
+	box-shadow: 5px 10px yellow;
+	text-align:center;
+	clear:float;
+	
+
+
+}
+
+
+
+
+	
+.container_description{
+	text-align:center;
+	margin: 5px;
+}
+  
+  .container h2{
+  text-align: center;}
+  
+
+  
+div.ideology{
+	 
+	display:inline-block;
+	 border: 2px dotted yellow;
+	 vertical-align: top;
+	 height :350px;
+	 text-align:center;
+	 width: 15%;
+	 background: yellow;
+	 MARGIN:2px;
+
+ }
+ 
+div.ideology:hover{
+	 background-color: blue;
+	 color:#92a8d1;
+
+ }
+ 
+
+
+ .who{
+	 width:150px;
+	 height: auto;
+	 max-width:100%;
+	 resize: both;
+ }
+ 
+ 
+
+
+
+div #left{
+	width: 15%;
+	display: inline-block;
+	color: blue;
+	margin:2px;
+	border: 2px  #73AD21;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	background-color: yellow;
+	height: 97%;
+	vertical-align:top;
+
+	
+
+
+}
+
+div #right{
+	width: 80%;
+	display: inline-block;
+	color: blue;
+	border: 2px  #73AD21;
+	margin:2px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	background-color: yellow;
+	height: 97%;
+	vertical-align:top;
+
+
+ 
+}
+
+div.inline {
+	display: inline-block;
+	width:70%;
+	color: red;
+	border: 10px  #73AD21;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	border: 3px solid red;
+	background-color: yellow;
+	margin: 4.45%;
+}
+
+div.inline:hover{
+	
+		 background-color: white;
+	 color: black;
+}
+
+
+div.lyrics{
+	text-align:center;
+}
+
+
+
+
+@media only screen and (max-width: 731px) {
+  /* For tablets: */
+#lefthammer{
+	display: none;
+}
+	  
+#righthammer{
+	display: none
+}
+	  
+
+	  
+div.ideology{
+	width:90%;
+	MARGIN:3px;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+
+div #left{
+	width:95%;
+	MARGIN:3px;
+	height:40%;
+
+}
+
+div #right{
+	width:95%;
+	MARGIN:3px;
+	height:40%;
+
+}
+
+div.inline{
+
+	text-align: center;
+}
+
+#containers{
+	
+	height:50%;
+}
+
+}
+
+
+
+ 
+ 
+
